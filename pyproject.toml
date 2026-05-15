@@ -1,0 +1,10 @@
+[project]
+name = "finance-mcp"
+version = "0.1.0"
+description = "Personal Finance Tracker MCP Server"
+requires-python = ">=3.12"
+dependencies = [
+    "fastmcp>=3.2.4",
+    "httpx>=0.28.1",
+    "python-dotenv>=1.2.2",
+]
